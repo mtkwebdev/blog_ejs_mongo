@@ -1,12 +1,12 @@
 {
   "name": "blog_ejs_mongo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic MVC Blog Markdown app.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./server/server.js"
+    "dev": "nodemon ./server/server.js gulp"
   },
-  "author": "",
+  "author": "Mohammad Kawadri",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -16,7 +16,10 @@
   },
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
     "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
     "nodemon": "^2.0.18",
     "sass": "^1.53.0"
   }
