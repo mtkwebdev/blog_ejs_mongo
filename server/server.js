@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 
-const articles = require('./utils/articles')
+const articles = require('./helpers/articles')
 
 const articlesRoute = require('./routes/articles');
 
